@@ -64,3 +64,4 @@ If the database is on MSSQL SQL Authentication mode and you need to switch to Wi
   <img src="../assets/OpshubServerServiceCredentials.png">
 </p>
 
+- adding new file here.
