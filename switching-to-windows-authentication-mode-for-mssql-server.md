@@ -4,7 +4,7 @@ Please go through the section [Installation Prerequisites](../getting-started/pr
 
 Please ensure the Windows user (who is used in MS SQL Windows Authentication) has **Read** and **Write** privileges before executing `databaseManagementUtlity`. You can grant the **Read** and **Write** privileges by executing the steps given below.
 
-- Open properties window of {{ space.vars.SITENAME }} installation folder (directory in which you have installed {{ space.vars.SITENAME }} i.e. `c:\Program Files\OpsHub`), it will show you the dialogue box shown below.  
+- Open properties window of {{OH_SITENAME}} installation folder (directory in which you have installed {{OH_SITENAME}} i.e. `c:\Program Files\OpsHub`), it will show you the dialogue box shown below.  
 - Select the user (to whom you want to grant privileges) from the Security tab and check Read and Write checkbox.  
 - Click OK after checking the Read and Write checkbox.
 
