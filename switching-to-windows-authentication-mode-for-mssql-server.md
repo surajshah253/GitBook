@@ -18,7 +18,7 @@ If the database is on MSSQL SQL Authentication mode and you need to switch to Wi
 - Unzip `OpsHub Database Management utility.zip`.  
 - Run `DatabaseManagementUtility.bat` for Windows system.  
 
-{% if "OpsHub Migrator for Microsoft Azure DevOps" === space.vars.SITENAME %}
+{% if "OpsHub Integration Manager" === space.vars.SITENAME %}
 - In case of Linux system, run `DatabaseManagementUtility.sh`.
 {% endif %}
 
