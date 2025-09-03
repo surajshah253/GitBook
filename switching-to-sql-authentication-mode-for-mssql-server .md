@@ -1,4 +1,4 @@
-# How to switch to Windows Authentication Mode for MSSQL Server
+# How to switch to SQL Authentication Mode for MSSQL Server
 
 Please go through the section [Installation Prerequisites](../getting-started/prerequisites.md#windows) for Windows Authentication mode before executing steps given below.
 
