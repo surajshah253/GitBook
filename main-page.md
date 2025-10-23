@@ -1,14 +1,18 @@
 # Main Page
 
-<div data-full-width="true" data-with-frame="true"><figure><img src=".gitbook/assets/Background.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="true"><figure><img src=".gitbook/assets/Background.png" alt=""><figcaption></figcaption></figure></div>
 
 {% columns fullWidth="true" %}
-{% column width="66.66666666666666%" valign="middle" %}
+{% column width="58.333333333333336%" valign="middle" %}
 #### <mark style="color:$danger;">WELCOME TO THE</mark>
 
 ## **OPSHUB INTEGRATION MANAGER DOCUMENTATION**
 
 This site provides complete and up-to- date documentation to help you install, configure, and operate OpsHub Integration Manager (OIM) effectively. Whether you're setting up your first integration, developing custom connectors, or troubleshooting issues, this documentation is structured to guide you through every step.
+{% endcolumn %}
+
+{% column %}
+<figure><img src=".gitbook/assets/Background.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column width="33.33333333333334%" valign="middle" %}
