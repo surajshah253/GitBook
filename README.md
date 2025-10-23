@@ -18,4 +18,4 @@ description: sgj
 
 
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Azure DevOps</td><td><a href="main-page.md">main-page.md</a></td></tr><tr><td>Codebeamer</td><td><a href="main-page.md">main-page.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:red;"><strong>Azure DevOps</strong></mark></td><td><a href="main-page.md">main-page.md</a></td></tr><tr><td align="center">Codebeamer</td><td><a href="main-page.md">main-page.md</a></td></tr></tbody></table>
