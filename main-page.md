@@ -12,7 +12,7 @@ This site provides complete and up-to- date documentation to help you install, c
 {% endcolumn %}
 
 {% column width="33.33333333333334%" valign="middle" %}
-<figure><img src=".gitbook/assets/Group 33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Group 33.png" alt="" width="239"><figcaption></figcaption></figure>
 
 
 {% endcolumn %}
