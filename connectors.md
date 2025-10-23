@@ -1,8 +1,8 @@
 <table data-view="cards" data-full-width="true">
    <thead>
       <tr>
-        <th align="center" width="30" height="30" data-card-cover data-type="image">Cover image</th> 
-        <th align="center" width="30" height="30" data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th>
+        <th align="center" data-hidden width="30" height="30" data-card-cover data-type="image">Cover image</th> 
+        <th align="center" data-hidden width="30" height="30" data-card-cover-dark data-type="image">Cover image (dark)</th>
         <th align="center"></th>
         <th data-hidden data-card-target data-type="content-ref"></th>
       </tr>
