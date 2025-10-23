@@ -400,3 +400,34 @@
 
    </tbody>
 </table>
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
+  <div style="text-align: center;">
+    <a href="ibm-rational-doors-next-generation.md">
+      <img src=".gitbook/assets/connector/IBM_DOORs_NextGen.png" alt="IBM DOORS NextGen" width="120">
+      <br>IBM DOORS NextGen
+    </a>
+  </div>
+
+  <div style="text-align: center;">
+    <a href="etm.md">
+      <img src=".gitbook/assets/connector/IBM_ETM.png" alt="IBM ETM" width="120">
+      <br>IBM ETM
+    </a>
+  </div>
+
+  <div style="text-align: center;">
+    <a href="jira.md">
+      <img src=".gitbook/assets/connector/Jira.png" alt="Jira" width="120">
+      <br>Jira
+    </a>
+  </div>
+
+  <div style="text-align: center;">
+    <a href="zendesk.md">
+      <img src=".gitbook/assets/connector/Zendesk.png" alt="Zendesk" width="120">
+      <br>Zendesk
+    </a>
+  </div>
+</div>
