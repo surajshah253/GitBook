@@ -1,14 +1,14 @@
 <table data-view="cards">
    <thead>
       <tr>
-        <th align="center"></th>
+        <th data-type="content-ref" align="center"></th>
         <th data-hidden data-card-cover data-type="image">Cover image</th>
         <th data-hidden data-type="content-ref"></th></th>
       </tr>
    </thead>
    <tbody>
       <tr>
-        <td align="center">Aras Innovator</td>
+        <td align="center"><a href="main-page.md">Aras Innovator</a></td>
         <td data-object-fit="contain"><a href="./.gitbook/assets/Aras.png">Aras</a></td>
         <td align="center"><a href="main-page.md"></a></td>
       </tr>
