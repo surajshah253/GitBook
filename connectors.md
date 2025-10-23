@@ -1,26 +1,26 @@
 <table data-view="cards">
    <thead>
       <tr>
-        <th data-type="content-ref" align="center"></th>
+        <th align="center"></th>
+        <th data-hidden data-card-target data-type="content-ref"></th>
         <th data-hidden data-card-cover data-type="image">Cover image</th>
-        <th data-hidden data-type="content-ref"></th></th>
       </tr>
    </thead>
    <tbody>
       <tr>
-        <td align="center"><a href="main-page.md">Aras Innovator</a></td>
-        <td style="background-color:white" data-object-fit="contain"><a href="./.gitbook/assets/Aras.png">Aras</a></td>
-        <td align="center"><a href="main-page.md"></a></td>
+       <td align="center">OpenText ALM Octane</td>
+         <td><a href="main-page.md">main-page.md</a></td>
+         <td data-object-fit="contain"><a href=".gitbook/assets/OpenText_ALM.png">OpenText_ALM.png</a></td>
       </tr>
       <tr>
-         <td align="center">Azure DevOps</td>
-         <td data-object-fit="contain"><a href="./.gitbook/assets/azure.png">DevOps</a></td>
-        <td align="center"><a href="main-page.md"></a></td>
+        <td align="center">Aras Innovator</td>
+          <td><a href="main-page.md">main-page.md</a></td>
+         <td data-object-fit="contain"><a href=".gitbook/assets/Aras.png">Aras.png</a></td>
       </tr>
       <tr>
-         <td align="center">OpenText ALM Octane</td>
-         <td data-object-fit="contain"><a href="./.gitbook/assets/OpenText_ALM.png">Octane</a></td>
-        <td align="center"><a href="main-page.md"></a></td>
+           <td align="center">Azure DevOps</td>
+          <td><a href="main-page.md">main-page.md</a></td>
+         <td data-object-fit="contain"><a href=".gitbook/assets/azure.png">azure.png</a></td>
       </tr>
    </tbody>
 </table>
