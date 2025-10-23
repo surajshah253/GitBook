@@ -1,8 +1,8 @@
 <table data-view="cards" data-full-width="false">
    <thead>
       <tr>
-        <th align="center" data-hidden width="30" height="30" data-card-cover data-type="image">Cover image</th> 
-        <th align="center" data-hidden width="30" height="30" data-card-cover-dark data-type="image">Cover image (dark)</th>
+        <th align="center" data-hidden data-card-cover data-type="image">Cover image</th> 
+        <th align="center" data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th>
         <th align="center"></th>
         <th data-hidden data-card-target data-type="content-ref"></th>
       </tr>
@@ -35,8 +35,8 @@
 </tr>
 
 <tr>
-  <td data-object-fit="contain"><a href=".gitbook/assets/connector/remedy.png">BMC Remedy</a></td>
-  <td data-object-fit="contain"><a href=".gitbook/assets/connector/remedy.png">BMC Remedy</a></td>
+  <td data-object-fit="contain"><a href=".gitbook/assets/connector/Remedy.png">BMC Remedy</a></td>
+  <td data-object-fit="contain"><a href=".gitbook/assets/connector/Remedy.png">BMC Remedy</a></td>
   <td align="center">BMC Remedy</td>
   <td><a href="remedy.md">remedy.md</a></td>
 </tr>
@@ -224,8 +224,8 @@
 </tr>
 
 <tr>
-  <td data-object-fit="contain"><a href=".gitbook/assets/connector/jira.png">Jira Cloud / Data Center</a></td>
-  <td data-object-fit="contain"><a href=".gitbook/assets/connector/jira.png">Jira Cloud / Data Center</a></td>
+  <td data-object-fit="contain"><a href=".gitbook/assets/connector/Jira.png">Jira Cloud / Data Center</a></td>
+  <td data-object-fit="contain"><a href=".gitbook/assets/connector/Jira.png">Jira Cloud / Data Center</a></td>
   <td align="center">Jira Cloud / Data Center</td>
   <td><a href="jira.md">jira.md</a></td>
 </tr>
