@@ -402,8 +402,8 @@
 </table>
 
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
-  <div style="text-align: center;">
+<div style="display: flex; gap: 16px;">
+  <div style="text-align: center; background-color:black">
     <a href="ibm-rational-doors-next-generation.md">
       <img src=".gitbook/assets/connector/IBM_DOORs_NextGen.png" alt="IBM DOORS NextGen" width="120">
       <br>IBM DOORS NextGen
