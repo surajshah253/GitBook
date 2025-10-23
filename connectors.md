@@ -9,7 +9,7 @@
    <tbody>
       <tr>
         <td align="center"><a href="main-page.md">Aras Innovator</a></td>
-        <td data-object-fit="contain"><a href="./.gitbook/assets/Aras.png">Aras</a></td>
+        <td style="background-color:white" data-object-fit="contain"><a href="./.gitbook/assets/Aras.png">Aras</a></td>
         <td align="center"><a href="main-page.md"></a></td>
       </tr>
       <tr>
@@ -19,7 +19,7 @@
       </tr>
       <tr>
          <td align="center">OpenText ALM Octane</td>
-         <td data-object-fit="contain"><a href="./.gitbook/assets/OpenText_ALM.png" alt="OpenText ALM Octane"></a></td>
+         <td data-object-fit="contain"><a href="./.gitbook/assets/OpenText_ALM.png">Octane</a></td>
         <td align="center"><a href="main-page.md"></a></td>
       </tr>
    </tbody>
