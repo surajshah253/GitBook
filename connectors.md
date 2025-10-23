@@ -11,7 +11,7 @@
       <tr>
         <td data-object-fit="contain"><a href=".gitbook/assets/connector/Aha.png">Aha</a></td>
         <td data-object-fit="contain"><a href=".gitbook/assets/connector/Aha.png">Aha</a></td>
-        <td align="center">Aha!</td>
+        <td align="center"><mark style="color:#555555"><strong>Aha!</strong></mark></td>
         <td><a href="main-page.md">main-page.md</a></td>
       </tr>
       <tr>
