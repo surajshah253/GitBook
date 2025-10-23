@@ -2,3 +2,4 @@
 
 * [Page](README.md)
 * [Main Page](main-page.md)
+* [Connectors](./connectors.md)
