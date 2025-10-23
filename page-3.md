@@ -1,6 +1,6 @@
 ---
 cover: .gitbook/assets/Background.png
-coverY: 0
+coverY: 333.8585655832626
 layout: landing
 ---
 
