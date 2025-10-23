@@ -11,11 +11,11 @@
         <td><a href="main-page.md">main-page.md</a></td>
       </tr>
       <tr>
-        <td align="center">Aras Innovator</td>
+        <td align="center"><mark style="color:#555555"><strong>Aras Innovator</strong></mark></td>
         <td><a href="main-page.md">main-page.md</a></td>
       </tr>
       <tr>
-        <td align="center">Azure DevOps</td>
+        <td align="center"><mark style="color:#555555"><strong>Azure DevOps</strong></mark></td>
         <td><a href="main-page.md">main-page.md</a></td>
       </tr>
 <tr>
@@ -27,15 +27,15 @@
   <td><a href="remedy.md">remedy.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>Broadcom Clarity</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>Broadcom<br>Clarity</strong></mark></td>
   <td><a href="clarity.md">clarity.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>Broadcom Rally Software</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>Broadcom<br>Rally Software</strong></mark></td>
   <td><a href="rally.md">rally.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>Broadcom Service Desk Manager</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>Broadcom<br>Service Desk Manager</strong></mark></td>
   <td><a href="clarity.md">clarity.md</a></td>
 </tr>
 <tr>
@@ -59,11 +59,11 @@
   <td><a href="database">database</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>Digital.ai Agility</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>Digital.ai<br>Agility</strong></mark></td>
   <td><a href="digital.ai-agility.md">digital.ai-agility.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>Digital.ai TeamForge</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>Digital.ai<br>TeamForge</strong></mark></td>
   <td><a href="teamforge.md">teamforge.md</a></td>
 </tr>
 <tr>
@@ -99,23 +99,23 @@
   <td><a href="hubspot.md">hubspot.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>IBM Engineering Requirements Management (DOORS NextGen)</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>IBM Engineering<br>Requirements Management (DOORS NextGen)</strong></mark></td>
   <td><a href="ibm-rational-doors-next-generation.md">ibm-rational-doors-next-generation.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>IBM Engineering Test Management</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>IBM Engineering<br>Test Management</strong></mark></td>
   <td><a href="etm.md">etm.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>IBM Engineering Workflow Management</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>IBM Engineering<br>Workflow Management</strong></mark></td>
   <td><a href="ibm-ewm.md">ibm-ewm.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>IBM Rational ClearQuest</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>IBM Rational<br>ClearQuest</strong></mark></td>
   <td><a href="ibm-rational-clearquest.md">ibm-rational-clearquest.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>IBM Rational DOORS</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>IBM Rational<br>DOORS</strong></mark></td>
   <td><a href="doors.md">doors.md</a></td>
 </tr>
 <tr>
@@ -143,15 +143,15 @@
   <td><a href="msdynamics.md">msdynamics.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>OpenText ALM Octane</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>OpenText<br>ALM Octane</strong></mark></td>
   <td><a href="almoctane.md">almoctane.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>OpenText ALM Quality Center</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>OpenText<br>ALM Quality Center</strong></mark></td>
   <td><a href="micro-focus-alm-qc.md">micro-focus-alm-qc.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>OpenText Project & Portfolio Management</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>OpenText<br>Project & Portfolio Management</strong></mark></td>
   <td><a href="caliberrm.md">caliberrm.md</a></td>
 </tr>
 <tr>
@@ -211,11 +211,11 @@
   <td><a href="trac.md">trac.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>Tricentis qTest</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>Tricentis<br>qTest</strong></mark></td>
   <td><a href="tricentis-qTest.md">tricentis-qTest.md</a></td>
 </tr>
 <tr>
-  <td align="center"><mark style="color:#555555"><strong>Tricentis Tosca</strong></mark></td>
+  <td align="center"><mark style="color:#555555"><strong>Tricentis<br>Tosca</strong></mark></td>
   <td><a href="tricentis-tosca.md">tricentis-tosca.md</a></td>
 </tr>
 <tr>
