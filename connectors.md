@@ -3,18 +3,18 @@
       <tr>
         <th align="center"></th>
         <th data-card-cover data-type="image">Cover image</th>
-        <th data-hidden data-type="link"></th>
+        <th data-hidden data-type="content-ref"></th></th>
       </tr>
    </thead>
    <tbody>
       <tr>
         <td align="center">Aras Innovator</td>
-        <td data-object-fit="contain"><image src="./.gitbook/assets/Aras.png" alt="Aras"></td>
+        <td data-object-fit="contain"><image src="./.gitbook/assets/Aras.png" alt="Aras"/></td>
         <td align="center"><a href="main-page.md"></a></td>
       </tr>
       <tr>
          <td align="center">Azure DevOps</td>
-         <td data-object-fit="contain"><a href="./.gitbook/assets/azure.png" alt="Azure DevOps">DevOps</a></td>
+         <td data-object-fit="contain"><a href="./.gitbook/assets/azure.png">DevOps</a></td>
         <td align="center"><a href="main-page.md"></a></td>
       </tr>
       <tr>
