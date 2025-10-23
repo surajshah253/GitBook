@@ -5,7 +5,6 @@
         <th data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th>
         <th align="center"></th>
         <th data-hidden data-card-target data-type="content-ref"></th>
-       
       </tr>
    </thead>
    <tbody>
