@@ -20,7 +20,7 @@ This site provides complete and up-to-date documentation to help you install, co
 
 ***
 
-<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center">Getting Started</td></tr><tr><td align="center">Manage</td></tr><tr><td align="center">Help Center</td></tr><tr><td align="center">Supported Connector</td></tr><tr><td align="center">Connector Documentation</td></tr><tr><td align="center">Connector SDK</td></tr><tr><td align="center">Release Note</td></tr><tr><td align="center">Knowledge Resources</td></tr><tr><td align="center">Contact Us</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-type="image"></th></tr></thead><tbody><tr><td align="center">Getting Started</td><td data-object-fit="contain"><a href=".gitbook/assets/Group 33.png">Group 33.png</a></td><td><a href=".gitbook/assets/Group 33.png">Group 33.png</a></td></tr><tr><td align="center">Manage</td><td></td><td></td></tr><tr><td align="center">Help Center</td><td></td><td></td></tr><tr><td align="center">Supported Connector</td><td></td><td></td></tr><tr><td align="center">Connector Documentation</td><td></td><td></td></tr><tr><td align="center">Connector SDK</td><td></td><td></td></tr><tr><td align="center">Release Note</td><td></td><td></td></tr><tr><td align="center">Knowledge Resources</td><td></td><td></td></tr><tr><td align="center">Contact Us</td><td></td><td></td></tr></tbody></table>
 
 
 
