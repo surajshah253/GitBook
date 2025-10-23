@@ -1,0 +1,15 @@
+---
+description: sgj
+---
+
+# Page
+
+<details>
+
+<summary></summary>
+
+
+
+</details>
+
+<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td align="center">OpenText ALM Octane</td><td data-object-fit="contain"><a href=".gitbook/assets/OpenText_ALM.png">OpenText_ALM.png</a></td></tr><tr><td align="center">Aras Innovator</td><td data-object-fit="contain"><a href=".gitbook/assets/Aras.png">Aras.png</a></td></tr><tr><td align="center">Azure DevOps</td><td data-object-fit="contain"><a href=".gitbook/assets/azure.png">azure.png</a></td></tr></tbody></table>
