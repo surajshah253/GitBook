@@ -1,4 +1,4 @@
-<table data-view="cards" data-full-width="true">
+<table data-view="cards" data-full-width="false">
    <thead>
       <tr>
         <th align="center" data-hidden width="30" height="30" data-card-cover data-type="image">Cover image</th> 
@@ -9,10 +9,10 @@
    </thead>
    <tbody>
       <tr>
-             <td data-object-fit="contain"><a href=".gitbook/assets/OpenText_ALM.png">OpenText_ALM.png</a></td>
-<td data-object-fit="contain"><a href=".gitbook/assets/Group 33.png">OpenText_ALM.png</a></td>
-            <td align="center">OpenText ALM Octane</td>
-         <td><a href="main-page.md">main-page.md</a></td>
+        <td data-object-fit="contain"><a href=".gitbook/assets/OpenText_ALM.png">OpenText_ALM.png</a></td>
+        <td data-object-fit="contain"><a href=".gitbook/assets/Group 33.png">OpenText_ALM.png</a></td>
+        <td align="center">OpenText ALM Octane</td>
+        <td><a href="main-page.md">main-page.md</a></td>
       </tr>
       <tr>
          <td data-object-fit="contain"><a href=".gitbook/assets/Aras.png">Aras.png</a></td>
