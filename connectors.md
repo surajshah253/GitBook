@@ -9,12 +9,12 @@
    <tbody>
       <tr>
         <td align="center">Aras Innovator</td>
-        <td data-object-fit="contain"><a href="./.gitbook/assets/Aras.png" alt="Aras"></a></td>
+        <td data-object-fit="contain"><image src="./.gitbook/assets/Aras.png" alt="Aras"></td>
         <td align="center"><a href="main-page.md"></a></td>
       </tr>
       <tr>
          <td align="center">Azure DevOps</td>
-         <td data-object-fit="contain"><a href="./.gitbook/assets/azure.png" alt="Azure DevOps"></a></td>
+         <td data-object-fit="contain"><a href="./.gitbook/assets/azure.png" alt="Azure DevOps">DevOps</a></td>
         <td align="center"><a href="main-page.md"></a></td>
       </tr>
       <tr>
