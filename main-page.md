@@ -4,7 +4,7 @@
 
 {% columns fullWidth="true" %}
 {% column valign="middle" %}
-**WELCOME TO THE**
+#### <mark style="color:purple;">WELCOME TO THE</mark>
 
 ### **OPSHUB INTEGRATION MANAGER DOCUMENTATION**
 
@@ -18,4 +18,6 @@ This site provides complete and up-to-date documentation to help you install, co
 
 ***
 
-<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>Getting Started</strong></td><td data-object-fit="fill"><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td><a href="connectors.md">connectors.md</a></td></tr><tr><td align="center">DSDGV</td><td><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td></td></tr><tr><td align="center">zdGrfh</td><td><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td></td></tr><tr><td align="center">eghrrj</td><td><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><a data-footnote-ref href="#user-content-fn-1"><strong>Getting Started</strong></a></td><td data-object-fit="fill"><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td><a href="connectors.md">connectors.md</a></td></tr><tr><td align="center">DSDGV</td><td><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td></td></tr><tr><td align="center">zdGrfh</td><td><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td></td></tr><tr><td align="center">eghrrj</td><td><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td></td></tr></tbody></table>
+
+[^1]: 
