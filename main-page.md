@@ -18,4 +18,4 @@ This site provides complete and up-to-date documentation to help you install, co
 
 ***
 
-<table data-view="cards" data-full-width="false"><thead><tr><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-type="image"></th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td data-object-fit="cover"><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td><a href=".gitbook/assets/Group 33.png">Group 33.png</a></td><td><a href=".gitbook/assets/Background (1).png">Background (1).png</a></td><td><a href="./">.</a></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td data-object-fit="contain"><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td><a href="connectors.md">connectors.md</a></td></tr></tbody></table>
