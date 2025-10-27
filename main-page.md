@@ -18,4 +18,4 @@ This site provides complete and up-to-date documentation to help you install, co
 
 ***
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td data-object-fit="contain"><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td><a href="connectors.md">connectors.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>Getting Started</strong></td><td><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td><a href="connectors.md">connectors.md</a></td></tr></tbody></table>
