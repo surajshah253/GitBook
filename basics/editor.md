@@ -28,6 +28,10 @@ GitBook offers a range of block types for you to add to your content inline — 
 
 Either start typing below, or press `/` to see a list of the blocks you can insert into your page.
 
+
+
+<table><thead><tr><th width="100" data-type="number">Sr. No</th><th width="236">Connector</th><th>Version</th></tr></thead><tbody><tr><td>1</td><td>zgs</td><td>ag</td></tr><tr><td>2</td><td>asg</td><td>ag</td></tr><tr><td>3</td><td>ag</td><td>afg</td></tr></tbody></table>
+
 ### Add a new block
 
 {% stepper %}
@@ -46,6 +50,6 @@ Try searching for “Stepper”, for exampe, to insert the stepper block.
 {% step %}
 #### Insert and edit your block
 
-Click or press Enter to insert your block. From here, you’ll be able to edit it as needed.
+Click or press Enter to insert your block. From here, you’ll be able to edit it as needed
 {% endstep %}
 {% endstepper %}
