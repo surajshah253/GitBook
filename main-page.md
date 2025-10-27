@@ -4,11 +4,11 @@
 
 {% columns fullWidth="true" %}
 {% column valign="middle" %}
-#### <mark style="color:purple;">WELCOME TO THE</mark>
+#### <mark style="color:purple;">**WELCOME TO THE**</mark>
 
 ### **OPSHUB INTEGRATION MANAGER DOCUMENTATION**
 
-This site provides complete and up-to-date documentation to help you install, configure, and operate OpsHub Integration Manager (OIM) effectively. Whether you're setting up your first integration, developing custom connectors, or troubleshooting issues, this documentation is structured to guide you through every step.
+This site provides complete an d up-to-date documentation to help you install, configure, and operate OpsHub Integration Manager (OIM) effectively. Whether you're setting up your first integration, developing custom connectors, or troubleshooting issues, this documentation is structured to guide you through every step.
 {% endcolumn %}
 
 {% column valign="middle" %}
