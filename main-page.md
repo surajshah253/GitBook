@@ -16,6 +16,10 @@ This site provides complete an d up-to-date documentation to help you install, c
 {% endcolumn %}
 {% endcolumns %}
 
+
+
+<p align="center">This site provides complete and up-to-date documentation to help you install, configure, and operate effectively. Whether you're setting up your first integration, developing custom connectors, or troubleshooting issues, this documentation is structured to guide you through every step.</p>
+
 ***
 
 <table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><a data-footnote-ref href="#user-content-fn-1"><strong>Getting Started</strong></a></td><td data-object-fit="fill"><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td><a href="connectors.md">connectors.md</a></td></tr><tr><td align="center">DSDGV</td><td><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td></td></tr><tr><td align="center">zdGrfh</td><td><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td></td></tr><tr><td align="center">eghrrj</td><td><a href=".gitbook/assets/Getting_Started.png">Getting_Started.png</a></td><td></td></tr></tbody></table>
