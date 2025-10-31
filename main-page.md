@@ -4,7 +4,7 @@ coverY: 0
 
 # Main Page
 
-
+as
 
 <p align="center">This site provides complete and up-to-date documentation to help you install, configure, and operate effectively. Whether you're setting up your first integration, developing custom connectors, or troubleshooting issues, this documentation is structured to guide you through every step.</p>
 
