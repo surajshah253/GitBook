@@ -1,7 +1,7 @@
 ---
 coverY: 0
 layout:
-  width: default
+  width: wide
   cover:
     visible: true
     size: full
@@ -10,7 +10,7 @@ layout:
   description:
     visible: false
   tableOfContents:
-    visible: true
+    visible: false
   outline:
     visible: false
   pagination:
