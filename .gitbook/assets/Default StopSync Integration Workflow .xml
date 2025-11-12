@@ -1,0 +1,182 @@
+<process-definition>
+	<start-state>
+		<transition to="initialize"/>
+	</start-state>
+
+	<state name="initialize">
+		<transition to="preSync">
+			<script>				
+			</script>
+		</transition>
+	</state>
+
+	<state name="preSync">
+		<transition to="Transform">
+			<script>			
+			</script>
+		</transition>
+	</state>
+
+
+	<state name="Transform">
+		<transition to="initiateDestination">
+			<script>			
+				<variable name="event"/>
+				<variable name="workflowInstanceId"/>
+				<variable name="mappedProperties"/>
+				<expression>
+	       			import java.util.HashMap;
+					import com.opshub.eai.EAIXSLTTransformationHandler;
+					mappedProperties = EAIXSLTTransformationHandler.executeTransformation(workflowInstanceId,event);
+					
+				</expression>
+			
+			</script>
+		</transition>
+	</state>
+
+	<state name="initiateDestination">
+		<transition to="LookUpEntity">
+		<script>
+			<variable name="event"/>
+			<variable name="workflowInstanceId"/>			
+			<variable name="destinationClient"/>
+			<variable name="Destination"/>
+			<variable name="mappedProperties"/>
+			<expression>
+				import com.opshub.dao.core;							
+				import com.opshub.eai.core.utility.CommonConnectorLoader;
+				import java.util.HashMap;
+				import com.opshub.dao.core.SystemType;
+				import com.opshub.eai.Constants;				
+				HashMap systemProps =  mappedProperties.get(Constants.NEWSYSTEMPROP);
+				HashMap projInfo = null;
+				if(systemProps!=null){
+					projInfo = systemProps.remove(Constants.PROJECT_INFO);					
+				}	
+				
+				if(projInfo==null){
+					projInfo=new HashMap();
+				}		
+        		CommonConnectorLoader targetHandler = new CommonConnectorLoader(workflowInstanceId,Destination);        		
+				
+				destinationClient = targetHandler.getOIMAdapter(projInfo);
+			</expression>
+			</script>
+		</transition>
+	</state>
+		
+	<state name="LookUpEntity">
+			<transition to="makeWritingDecision">
+				<script>
+					<variable name="mappedProperties"/>			
+					<variable name="event"/>
+					<variable name="destinationClient"/>
+					<variable name="targetSearchQuery"/>
+					<variable name="targetSearchResultCriteria"/>
+					<variable name="isContinueUpdate"/>
+					<variable name="isTargetLookUp"/>
+					<variable name="isCreateOnNotFound"/>
+					<variable name="targetLookUpQuery"/>
+					<variable name="resolutionOption"/>
+					<variable name="internalId"/>
+					<variable name="targetEntity"/>					
+					<expression>
+						import com.opshub.reconcile.common.IEntityLookup;
+						import com.opshub.reconcile.common.EntityLookupHandler;
+						import com.opshub.eai.Constants;
+						
+						if(isTargetLookUp){
+							IEntityLookup entityLookupAware = new EntityLookupHandler();
+							targetEntity = entityLookupAware.lookUpEntityIdAndRegister(destinationClient, event, targetLookUpQuery, resolutionOption,mappedProperties.get(Constants.NEWSYSTEMPROP),mappedProperties.get(Constants.NEWCUSTOMPROP));
+							if(targetEntity!=null){
+								internalId = targetEntity.getInternalId();
+							}
+						}
+					</expression>
+				</script>
+			</transition>
+	</state>
+	
+	<decision name="makeWritingDecision">
+			<transition to="PostSync">
+				<condition expression="#{(isTargetLookUp=='True' &amp;&amp; isContinueUpdate=='False' &amp;&amp; targetEntity!=null) || (isTargetLookUp=='True' &amp;&amp; targetEntity==null &amp;&amp; isCreateOnNotFound=='False')}" />
+			</transition>
+			<transition to="callMethod">
+				<condition expression="#{isTargetLookUp=='False' || (isContinueUpdate=='True' &amp;&amp; targetEntity!=null) || (targetEntity==null &amp;&amp; isCreateOnNotFound=='True')}" />			
+			</transition>			
+	</decision>
+	
+	
+	<state name="callMethod">
+	<transition to="PostSync">
+	<script>
+	<variable name="mappedProperties"/>
+	<variable name="destinationClient"/>	
+	<variable name="event"/>
+	<variable name="internalId"/>
+	<variable name="Destination"/>
+	<variable name="workflowInstanceId"/>
+	<variable name="eventDetail" />
+	
+	<expression>	
+		import java.util.HashMap;
+		import com.opshub.eai.Constants;
+		import com.opshub.eai.EventDetail;
+		String internalId;
+		HashMap sysProp = mappedProperties.get(Constants.NEWSYSTEMPROP);
+		HashMap custProp = mappedProperties.get(Constants.NEWCUSTOMPROP);
+		HashMap oldSystemValues = mappedProperties.get(Constants.OLDSYSTEMPROP);
+		HashMap oldCustomValues = mappedProperties.get(Constants.OLDCUSTOMPROP);
+		import org.apache.log4j.Logger;
+		Logger LOGGER = Logger.getLogger(EventDetail.class);
+      
+      	final String keyStopSync = "OH__Stop__Sync";
+      
+		LOGGER.info("##WF## System Prop: " + sysProp);
+		LOGGER.info("##WF## Custom Prop: " + custProp);
+		boolean isStopSync;
+      if(sysProp.containsKey(keyStopSync)) {
+      	isStopSync = Boolean.parseBoolean(sysProp.get(keyStopSync));
+		LOGGER.info("##WF## " + keyStopSync + " field found in System Property having value: " + isStopSync);
+		sysProp.remove(keyStopSync);
+      } else if(custProp.containsKey(keyStopSync)) {
+      	isStopSync = Boolean.parseBoolean(custProp.get(keyStopSync));
+      	LOGGER.info("##WF## " + keyStopSync + " field found in Custom Property having value: " + isStopSync);
+		custProp.remove(keyStopSync);
+      } else {
+      	isStopSync = false;
+      	LOGGER.info("##WF## No Such field found with name " + keyStopSync + ", setting isStopSync to false");
+      }
+        String internalId;
+		if(isStopSync){
+            LOGGER.info("##WF## Stopping further sync.");
+        }
+        else{  
+			LOGGER.info("##WF## Required to Proceed for Upsert.");
+            internalId = destinationClient.upsert(eventDetail,sysProp,custProp,null, oldSystemValues,oldCustomValues);
+        }
+
+	</expression>
+	</script>
+	</transition>
+	</state>
+	
+	<state name="PostSync">
+		<transition to="end">
+			<script>		
+				<variable name="event"/>				
+				<variable name="internalId"/>
+				<variable name="workflowInstanceId"/>
+				<variable name="destinationClient"/>
+				<expression>
+					import java.util.HashMap;
+					import com.opshub.eai.EaiUtility;
+					EaiUtility.updateSource(event,internalId,workflowInstanceId,destinationClient,null,null,false)
+				</expression>			
+			</script>
+		</transition>
+	</state>
+
+	<end-state name="end"/>
+</process-definition>
