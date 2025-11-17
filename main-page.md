@@ -47,9 +47,15 @@ ty67iu76u
 {% endstep %}
 
 {% step %}
-### asyrweghtyj6ui
+### add step in `connector.md`
 
 dhtj
+{% endstep %}
+
+{% step %}
+### aferg in `connector.md`
+
+scf
 {% endstep %}
 {% endstepper %}
 
